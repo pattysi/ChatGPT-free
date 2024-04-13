@@ -9,12 +9,12 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized: isApp
-      ? "Invalid API Key, please check it in [Settings](/#/settings) page."
-      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.",
+      ? "Invalid API Key, please check it in [Settings](/#/settings) page.没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattysi"
+      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.你不知道密码？请加我们的q群921551235",
   },
   Auth: {
     Title: "Need Access Code",
-    Tips: "Please enter access code below",
+    Tips: "Please enter access code below.你不知道密码？请加我们的q群921551235",
     SubTips: "Or enter your OpenAI or Google API Key",
     Input: "access code",
     Confirm: "Confirm",
