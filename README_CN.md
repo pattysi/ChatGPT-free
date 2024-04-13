@@ -54,7 +54,7 @@
 
 > 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
 
-> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)。
+> **警告**：请务必将密码的位数设置得足够长，最好 7 位以上。
 
 本项目提供有限的权限控制功能，请在 Vercel 项目控制面板的环境变量页增加名为 `CODE` 的环境变量，值为用英文逗号分隔的自定义密码：
 
@@ -220,23 +220,6 @@ docker run -d -p 3000:3000 \
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
-
-⚠️ 注意：如果你安装过程中遇到了问题，请使用 docker 部署。
-
-## 鸣谢
-
-### 捐赠者
-
-> 见英文版。
-
-### 贡献者
-
-[见项目贡献者列表](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
-
-### 相关项目
-
-- [one-api](https://github.com/songquanpeng/one-api): 一站式大模型额度管理平台，支持市面上所有主流大语言模型
-
 ## 开源协议
 
 [MIT](https://opensource.org/license/mit/)
