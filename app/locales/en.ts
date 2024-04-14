@@ -383,7 +383,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "Hello! How can I assist you today?Please add our QQ group 921551235, our store has extremely low priced Key: https://s0h.cn/pattysi",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
