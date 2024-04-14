@@ -10,7 +10,7 @@ const en: LocaleType = {
   Error: {
     Unauthorized: isApp
       ? "Invalid API Key, please check it in [Settings](/#/settings) page.key shop:https://s0h.cn/pattysi"
-      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.To obtain the password,please add a QQ group：921551235",
+      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.To obtain the password,please add a QQ group：921551235.key shop:https://s0h.cn/pattysi",
   },
   Auth: {
     Title: "Need Access Code",
