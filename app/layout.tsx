@@ -10,8 +10,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "ChatGPT公益网",
-  description: "免费试用ChatGPT，q群921551235",
+  title: "ChatGPT FREE",
+  description: "Free use of ChatGPT, QQ group:921551235",
   viewport: {
     width: "device-width",
     initialScale: 1,
