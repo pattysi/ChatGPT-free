@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "请加我们的q群921551235，我们的商店有极其低价的Key：https://s0h.cn/pattysi",
+    BotHello: "你好！有什么可以帮到您？请加我们的q群921551235，我们的商店有极其低价的Key：https://s0h.cn/pattysi",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
