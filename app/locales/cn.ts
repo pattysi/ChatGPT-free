@@ -8,12 +8,12 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattysi"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。你不知道密码？请加我们的q群921551235",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。你不知道密码？请加我们的q群921551235。没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattysi",
   },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码。你不知道密码？请加我们的q群921551235",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
+    SubTips: "或者输入你的 OpenAI 或 Google API 密钥。没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattys",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "请加我们的q群921551235，我们的商店有极其低价的Key：https://s0h.cn/pattysi",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
