@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT公益网",
+    title: "ChatGPT FREE",
     statusBarStyle: "default",
   },
 };
