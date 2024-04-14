@@ -19,7 +19,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 [网页版](https://www.20082009.xyz/) 
 
 [web-url]: https://www.20082009.xyz/
-[download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
+[download-url]: https://github.com/pattysi/NextChat1
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
@@ -29,7 +29,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/ZBUEFA)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/pattysi/NextChat1)
 
 ![cover](./docs/images/cover.png)
 
@@ -38,7 +38,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 ## Features
 
 - **Deploy for free with one-click** on Vercel in under 1 minute
-- Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- Compact client (~5MB) on Linux/Windows/MacOS.
 - Fully compatible with self-deployed LLMs, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
 - Privacy first, all data is stored locally in the browser
 - Markdown support: LaTex, mermaid, code highlight, etc.
@@ -60,7 +60,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 ## 主要功能
 
 - 在 1 分钟内使用 Vercel **免费一键部署**
-- 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）。
 - 完整的 Markdown 支持：LaTex 公式、Mermaid 流程图、代码高亮等等
 - 精心设计的 UI，响应式设计，支持深色模式，支持 PWA
 - 极快的首屏加载速度（~100kb），支持流式响应
@@ -321,12 +321,6 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 ## Translation
 
 If you want to add a new translation, read this [document](./docs/translation.md).
-
-### Contributors
-
-<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
-</a>
 
 ## LICENSE
 
