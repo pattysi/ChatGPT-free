@@ -1,11 +1,11 @@
 export const OWNER = "pattysi";
 export const REPO = "NextChat1";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
-export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
-export const UPDATE_URL = `${REPO_URL}#keep-updated`;
-export const RELEASE_URL = `${REPO_URL}/releases`;
-export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
-export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
+export const ISSUE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web/issues`;
+export const UPDATE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web#keep-updated`;
+export const RELEASE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web/releases`;
+export const FETCH_COMMIT_URL = `https://api.github.com/repos/Yidadaa/ChatGPT-Next-Web/commits?per_page=1`;
+export const FETCH_TAG_URL = `https://api.github.com/repos/Yidadaa/ChatGPT-Next-Web/tags?per_page=1`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
 export const DEFAULT_API_HOST = "https://api.nextchat.dev";
