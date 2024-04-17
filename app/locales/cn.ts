@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！有什么可以帮到您？\n请加我们的q群921551235，我们的商店有极其低价的Key：https://s0h.cn/pattysi\ngpt-3.5 OpenAI速度最快的模型，适合日常工作\ngpt-4 OpenAI高级人工智能模型，提供更复杂的语言理解和生成能力",
+    BotHello: "你好！有什么可以帮到您？\n请加我们的q群921551235，我们的商店有极其低价的Key：https://s0h.cn/pattysi\ngpt-3.5 OpenAI速度最快的模型，适合日常工作\ngpt-4 OpenAI高级人工智能模型，提供更复杂的语言理解和生成能力\ngpt-4-vision-preview GPT4的视觉处理版本，结合了文字和图像处理能力",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
