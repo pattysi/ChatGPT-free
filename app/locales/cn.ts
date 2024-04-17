@@ -7,8 +7,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattysi"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。你不知道密码？请加我们的q群921551235。没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattysi",
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattysi"
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。\n你不知道密码？请加我们的q群921551235。没有API Key？请访问我们的商店购买极其低价的Key https://s0h.cn/pattysi",
   },
   Auth: {
     Title: "需要密码",
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！有什么可以帮到您？请加我们的q群921551235，我们的商店有极其低价的Key：https://s0h.cn/pattysi",
+    BotHello: "你好！有什么可以帮到您？\n请加我们的q群921551235，我们的商店有极其低价的Key：https://s0h.cn/pattysi\ngpt-3.5 OpenAI速度最快的模型，适合日常工作\ngpt-4 OpenAI高级人工智能模型，提供更复杂的语言理解和生成能力",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
