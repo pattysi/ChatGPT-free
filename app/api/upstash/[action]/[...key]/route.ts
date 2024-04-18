@@ -16,7 +16,7 @@ async function handle(
     return NextResponse.json(
       {
         error: true,
-        msg: "you are not allowed to request " + params.key.join("/"),
+        msg: "you are not allowed to request,not allow" + params.key.join("/"),
       },
       {
         status: 403,
@@ -30,7 +30,7 @@ async function handle(
     return NextResponse.json(
       {
         error: true,
-        msg: "you are not allowed to request " + params.action,
+        msg: "you are not allowed to request,not allow" + params.action,
       },
       {
         status: 403,
