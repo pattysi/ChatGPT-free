@@ -37,7 +37,7 @@ async function handle(
     return NextResponse.json(
       {
         error: true,
-        msg: "you are not allowed to request,not allow " + subpath,
+        msg: "you are not allowed to request " + subpath,
       },
       {
         status: 403,
