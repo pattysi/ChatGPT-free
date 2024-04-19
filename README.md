@@ -14,9 +14,9 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[Web App](https://www.20082009.xyz/)
+[ChatGPT公益网 App](https://www.20082009.xyz/)
 
-[网页版](https://www.20082009.xyz/) 
+[ChatGPT公益网](https://www.20082009.xyz/) 
 
 [web-url]: https://www.20082009.xyz/
 [download-url]: https://github.com/pattysi/NextChat1
@@ -27,7 +27,6 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat)
 
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/ZBUEFA)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/pattysi/NextChat1)
 
