@@ -20,7 +20,7 @@ You can also deploy your cross platform private ChatGPT application for free wit
 
 [ChatGPT公益网 App](https://www.20082009.xyz/)
 
-[ChatGPT公益网](https://www.20082009.xyz/) 
+[ChatGPT公益网 Web](https://www.20082009.xyz/) 
 
 [web-url]: https://www.20082009.xyz/
 [download-url]: https://github.com/pattysi/ChatGPT-free
@@ -275,7 +275,7 @@ docker pull yidadaa/chatgpt-next-web
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=your-password \
-   yidadaa/chatgpt-next-web
+   pattysi/ChatGPT-free
 ```
 
 You can start service behind a proxy:
@@ -285,7 +285,7 @@ docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=your-password \
    -e PROXY_URL=http://localhost:7890 \
-   yidadaa/chatgpt-next-web
+   pattysi/ChatGPT-free
 ```
 
 If your proxy needs password, use:
@@ -297,7 +297,7 @@ If your proxy needs password, use:
 ### Shell
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/pattysi/ChatGPT-free/main/scripts/setup.sh)
 ```
 
 ## Synchronizing Chat Records (UpStash)
