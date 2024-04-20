@@ -1,37 +1,35 @@
-/* 弹窗背景 */
+/* 遮罩样式 */
 .modal {
-  display: none; /* 默认隐藏 */
-  position: fixed; /* 固定位置 */
-  z-index: 1; /* 置于顶层 */
-  left: 0;
-  top: 0;
-  width: 100%; /* 全宽 */
-  height: 100%; /* 全高 */
-  overflow: auto; /* 如果需要滚动条 */
-  background-color: rgb(0,0,0); /* 背景色 */
-  background-color: rgba(0,0,0,0.4); /* 黑色背景，略透明 */
+    display: none; /* 默认不显示 */
+    position: fixed; /* 固定位置 */
+    z-index: 1; /* 确保在顶层 */
+    left: 0;
+    top: 0;
+    width: 100%; /* 覆盖整个视窗宽度 */
+    height: 100%; /* 覆盖整个视窗高度 */
+    background-color: rgba(0, 0, 0, 0.4); /* 半透明黑色背景 */
 }
 
-/* 弹窗内容 */
+/* 内容框样式 */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% 从顶部开始，居中位置 */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* 宽度 */
+    background-color: #fefefe;
+    margin: 15% auto; /* 居中显示 */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* 内容宽度 */
 }
 
-/* 关闭按钮 */
+/* 关闭按钮样式 */
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
