@@ -23,7 +23,7 @@ You can also deploy your cross platform private ChatGPT application for free wit
 [ChatGPT公益网](https://www.20082009.xyz/) 
 
 [web-url]: https://www.20082009.xyz/
-[download-url]: https://github.com/pattysi/NextChat1
+[download-url]: https://github.com/pattysi/ChatGPT-free
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
