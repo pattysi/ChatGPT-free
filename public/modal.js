@@ -44,3 +44,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // 页面加载完毕时显示模态窗口
     modal.style.display = 'block';
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var modal = document.getElementById('myModal');
+    var span = document.getElementsByClassName('close')[0];
+
+    modal.style.display = 'block';  // 确保模态窗口被设置为显示
+    alert('模态窗口应该现在显示了');
+
+    span.onclick = function() {
+        modal.style.display = 'none';
+    };
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    };
+});
