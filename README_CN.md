@@ -3,7 +3,8 @@
 
 <h1 align="center">ChatGPT公益网</h1>
 
-一键免费部署你的私人 ChatGPT 网页应用，支持 GPT3, GPT4 & Gemini Pro 模型。
+进入网站可以免费使用ChatGPT3.5/4
+还可以一键免费部署你的私人 ChatGPT 网页应用，支持 GPT3, GPT4 & Gemini Pro 模型。
 
 [演示 Demo](https://www.20082009.xyz/) / [反馈 Issues](https://github.com/pattysi/NextChat1)
 
