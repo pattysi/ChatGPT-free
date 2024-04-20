@@ -1,3 +1,5 @@
+console.log("JavaScript文件已加载");
+
 // 获取模态窗口
 var modal = document.getElementById('myModal');
 
