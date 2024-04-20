@@ -1,21 +1,22 @@
-// 获取元素
-var modal = document.getElementById("myModal");
-var span = document.getElementsByClassName("close")[0];
+// 获取模态窗口
+var modal = document.getElementById('myModal');
 
-// 当用户点击 <span> (x), 关闭弹窗
+// 获取关闭按钮
+var span = document.getElementsByClassName('close')[0];
+
+// 点击关闭按钮关闭模态窗口
 span.onclick = function() {
-  modal.style.display = "none";
+    modal.style.display = 'none';
 }
 
-// 当用户点击弹窗以外的区域, 也可以关闭弹窗
+// 点击窗口外区域也能关闭模态窗口
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
 }
 
-// 在页面加载完毕时显示弹窗
+// 页面加载完毕时显示模态窗口
 window.onload = function() {
-  modal.style.display = "block";
+    modal.style.display = 'block';
 }
-console.log('JavaScript文件已加载');
