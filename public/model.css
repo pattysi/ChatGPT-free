@@ -1,0 +1,37 @@
+/* 弹窗背景 */
+.modal {
+  display: none; /* 默认隐藏 */
+  position: fixed; /* 固定位置 */
+  z-index: 1; /* 置于顶层 */
+  left: 0;
+  top: 0;
+  width: 100%; /* 全宽 */
+  height: 100%; /* 全高 */
+  overflow: auto; /* 如果需要滚动条 */
+  background-color: rgb(0,0,0); /* 背景色 */
+  background-color: rgba(0,0,0,0.4); /* 黑色背景，略透明 */
+}
+
+/* 弹窗内容 */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% 从顶部开始，居中位置 */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* 宽度 */
+}
+
+/* 关闭按钮 */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
