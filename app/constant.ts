@@ -1,5 +1,5 @@
 export const OWNER = "pattysi";
-export const REPO = "NextChat1";
+export const REPO = "ChatGPT-free";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web/issues`;
 export const UPDATE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web#keep-updated`;
