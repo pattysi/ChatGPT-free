@@ -2,7 +2,7 @@
 .modal {
     display: none; /* 默认不显示 */
     position: fixed; /* 固定位置 */
-    z-index: 1; /* 确保在顶层 */
+    z-index: 1000; /* 确保在顶层 */
     left: 0;
     top: 0;
     width: 100%; /* 覆盖整个视窗宽度 */
