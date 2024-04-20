@@ -1,6 +1,6 @@
 /* 弹窗背景 */
 .modal {
-  display: block; /* 默认隐藏 */
+  display: none; /* 默认隐藏 */
   position: fixed; /* 固定位置 */
   z-index: 1; /* 置于顶层 */
   left: 0;
