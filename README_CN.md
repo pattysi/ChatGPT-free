@@ -6,7 +6,7 @@
 进入网站可以免费使用ChatGPT3.5/4
 还可以一键免费部署你的私人 ChatGPT 网页应用，支持 GPT3, GPT4 & Gemini Pro 模型。
 
-[演示 Demo](https://www.20082009.xyz/) / [反馈 Issues](https://github.com/pattysi/NextChat1)
+[演示 Demo](https://www.20082009.xyz/) / [反馈 Issues](https://github.com/pattysi/ChatGPT-free)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
@@ -201,7 +201,7 @@ docker run -d -p 3000:3000 \
    -e CODE=页面访问密码 \
    --net=host \
    -e PROXY_URL=http://127.0.0.1:7890 \
-   yidadaa/chatgpt-next-web
+   pattysi/ChatGPT-free
 ```
 
 如果你的本地代理需要账号密码，可以使用：
@@ -217,7 +217,7 @@ docker run -d -p 3000:3000 \
 在控制台运行下方命令：
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/pattysi/ChatGPT-free/main/scripts/setup.sh)
 ```
 ## 开源协议
 
