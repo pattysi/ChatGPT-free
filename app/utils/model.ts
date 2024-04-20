@@ -77,3 +77,5 @@ const MyPage = () => {
 };
 
 export default MyPage;
+
+modal!.style.display = "none";
