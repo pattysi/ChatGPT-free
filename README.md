@@ -1,13 +1,17 @@
 <div align="center">
 <img src="./docs/images/head-cover.png" alt="icon"/>
 
-<h1 align="center">NextChat (ChatGPT Next Web)</h1>
+<h1 align="center">ChatGPT公益网(ChatGPT FREE)</h1>
 
 English / [简体中文](./README_CN.md)
 
-One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
+Our website is free to use ChatGPT3.5/4
 
-一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
+本网站免费使用ChatGPT3.5/4
+
+You can also deploy your cross platform private ChatGPT application for free with just one click, supporting GPT3, GPT4&Gemini Pro models.
+
+还可以一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
 
 [![Web][Web-image]][web-url]
 [![Windows][Windows-image]][download-url]
