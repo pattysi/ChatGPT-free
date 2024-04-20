@@ -59,3 +59,21 @@ export function collectModels(
 
   return allModels;
 }
+import React, { useState } from 'react';
+import Modal from '../components/Modal';
+
+const MyPage = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  return (
+    <>
+      <button onClick={() => setModalOpen(true)}>打开弹窗</button>
+      <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)}>
+        <p>这是弹窗内容！</p>
+      </Modal>
+      {/* ... 其他页面内容 ... */}
+    </>
+  );
+};
+
+export default MyPage;
