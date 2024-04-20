@@ -12,8 +12,8 @@ const cn = {
   },
   Auth: {
     Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码。你不知道密码？请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥。没有API Key？请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key",
+    Tips: "管理员开启了密码验证，请在下方填入访问码。你不知道密码？请加我们的qq群921551235",
+    SubTips: "或者输入你的 OpenAI 或 Google API 密钥。没有API Key？请访问我们的商店https://s0h.cn/pattysi购买极其低价的Key",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
