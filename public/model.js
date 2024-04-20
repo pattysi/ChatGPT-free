@@ -18,3 +18,4 @@ window.onclick = function(event) {
 window.onload = function() {
   modal.style.display = "block";
 }
+console.log('JavaScript文件已加载');
