@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\nAPIKey管理[网站](https://oneapi-l79y.onrender.com/)免费注册后赠送余额，可以使用所有模型\ngpt-3.5 OpenAI速度最快的模型，适合日常工作\ngpt-3.5-turbo-16k GPT3.5的高容量版本，适合大规模文本处理\ngpt-4 OpenAI高级人工智能模型，提供更复杂的语言理解和生成能力\ngpt-4-vision-preview GPT4的视觉处理版本，结合了文字和图像处理能力\ngpt-4-dalle 结合了GPT4和DALL-E的模型，能够理解和生成创意图像\ngpt-4-turbo OpenAI上下文最长的模型，适合复杂的语言处理任务\n\n如果你只是白嫖，请使用gpt-3.5-turbo或，其他模型无法使用",
+    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\n如需免费使用，请访问我们的[APIKey管理网站](https://oneapi-l79y.onrender.com/)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\n\n\n模型介绍：\ngpt-3.5 OpenAI速度最快的模型，适合日常工作\ngpt-3.5-turbo-16k GPT3.5的高容量版本，适合大规模文本处理\ngpt-4 OpenAI高级人工智能模型，提供更复杂的语言理解和生成能力\ngpt-4-vision-preview GPT4的视觉处理版本，结合了文字和图像处理能力\ngpt-4-dalle 结合了GPT4和DALL-E的模型，能够理解和生成创意图像\ngpt-4-turbo OpenAI上下文最长的模型，适合复杂的语言处理任务，结合了GPT4和DALL-E的模型，能够理解和生成创意图",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
