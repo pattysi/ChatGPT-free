@@ -8,7 +8,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "NextChat",
+    "productName": "ChatGPT公益网",
     "version": "2.11.3"
   },
   "tauri": {
