@@ -18,11 +18,11 @@ You can also deploy your cross platform private ChatGPT application for free wit
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[ChatGPT公益网 App](https://www.20082009.xyz/)
+[ChatGPT公益网 App](https://chat.20082009.xyz/)
 
-[ChatGPT公益网 Web](https://www.20082009.xyz/) 
+[ChatGPT公益网 Web](https://chat.20082009.xyz/) 
 
-[web-url]: https://www.20082009.xyz/
+[web-url]: https://chat.20082009.xyz/
 [download-url]: https://github.com/pattysi/ChatGPT-free
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
