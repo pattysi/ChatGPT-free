@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\n如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\n\n这里有详细的文档说明：https://docs.qq.com/doc/DZmpOd0traGFXRkJO",
+    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\n如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\n点击蓝色字体可直接跳转到其他网站\n这里有详细的文档说明：https://docs.qq.com/doc/DZmpOd0traGFXRkJO",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
