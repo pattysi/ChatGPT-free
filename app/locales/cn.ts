@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\n如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\nAPIKey使用方法：现在APIKey管理网中创建令牌，然后复制到本网站的设置中的自定义接口中APIKey栏，在接口地址填https://oudlbsai.bja.sealos.run\n\n模型介绍：\ngpt-3.5 OpenAI速度最快的模型，适合日常工作\ngpt-3.5-turbo-16k GPT3.5的高容量版本，适合大规模文本处理\ngpt-4 OpenAI高级人工智能模型，提供更复杂的语言理解和生成能力\ngpt-4-vision-preview GPT4的视觉处理版本，结合了文字和图像处理能力\ngpt-4-dalle 结合了GPT4和DALL-E的模型，能够理解和生成创意图像\ngpt-4-turbo OpenAI上下文最长的模型，适合复杂的语言处理任务，结合了GPT4和DALL-E的模型，能够理解和生成创意图\nglm 国内智谱AI大模型，提供了更强大的问答和文本生成能力。适合于复杂的对话交互和深度内容创作设计的场景。",
+    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\n如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\n\n这里有详细的文档说明：https://docs.qq.com/doc/DZmpOd0traGFXRkJO",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
