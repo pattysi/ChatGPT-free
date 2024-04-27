@@ -7,13 +7,13 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n没有API Key？如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。\n你不知道密码？请加我们的q群921551235。如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度",
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n没有API Key？如需免费使用，请访问我们的[APIKey管理网站](https://api.20082009.xyz)在此网站注册后有免费额度"
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。\n你不知道密码？请加我们的q群921551235。如需免费使用，请访问我们的[APIKey管理网站](https://api.20082009.xyz)在此网站注册后有免费额度",
   },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码。你不知道密码？请加我们的qq群921551235",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥。没有API Key？如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度",
+    SubTips: "或者输入你的 OpenAI 或 Google API 密钥。没有API Key？如需免费使用，请访问我们的[APIKey管理网站](https://api.20082009.xyz)在此网站注册后有免费额度",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\n如需免费使用，请访问我们的[APIKey管理网站](https://oudlbsai.bja.sealos.run)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\n点击蓝色字体可直接跳转到其他网站\n\n文档说明：https://docs.qq.com/doc/DZmpOd0traGFXRkJO\n这里有极其详细的获取apikey的方法：https://docs.qq.com/doc/DZnlPRXZoRFdJcXFO",
+    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的Key\n如需免费使用，请访问我们的[APIKey管理网站](https://api.20082009.xyz)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\n点击蓝色字体可直接跳转到其他网站\n\n文档说明：https://docs.qq.com/doc/DZmpOd0traGFXRkJO\n这里有极其详细的获取apikey的方法：https://docs.qq.com/doc/DZnlPRXZoRFdJcXFO",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
