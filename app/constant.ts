@@ -2,7 +2,7 @@ export const OWNER = "pattysi";
 export const REPO = "ChatGPT-free";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web/issues`;
-export const UPDATE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web#keep-updated`;
+export const UPDATE_URL = `https://github.com/pattysi/ChatGPT-free`;
 export const RELEASE_URL = `https://github.com/Yidadaa/ChatGPT-Next-Web/releases`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/Yidadaa/ChatGPT-Next-Web/commits?per_page=1`;
 export const FETCH_TAG_URL = `https://api.github.com/repos/Yidadaa/ChatGPT-Next-Web/tags?per_page=1`;
