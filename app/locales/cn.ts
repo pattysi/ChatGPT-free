@@ -287,13 +287,13 @@ const cn = {
       OpenAI: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
+          SubTitle: "使用API Key管理网中生成的API Key",
           Placeholder: "OpenAI API Key",
         },
 
         Endpoint: {
           Title: "接口地址",
-          SubTitle: "除默认地址外，必须包含 http(s)://",
+          SubTitle: "框里填https://api.120509.xyz",
         },
       },
       Azure: {
