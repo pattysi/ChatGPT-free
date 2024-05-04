@@ -287,7 +287,7 @@ const cn = {
       OpenAI: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "使用API Key管理网中生成的API Key",
+          SubTitle: "填API Key管理网中生成的API Key",
           Placeholder: "OpenAI API Key",
         },
 
