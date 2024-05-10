@@ -7,7 +7,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n没有API Key？如需免费使用，请访问我们的[APIKey管理网站](https://api.120509.xyz)在此网站注册后有免费额度"
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n没有API Key？如需免费使用，请访问我们的[APIKey管理网站](https://api.120509.xyz)在此网站注册后有免费额度。请填您在我们的APIKey管理网中生成的Key"
       : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。\n你不知道密码？请加我们的q群921551235。本网站的详细使用方法：https://docs.qq.com/doc/DZmRJdXZMQXZqT3Vo",
   },
   Auth: {
