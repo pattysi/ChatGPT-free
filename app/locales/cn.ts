@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的APIkey余额\n如需免费使用，请访问我们的[APIKey管理网站](https://api.120509.xyz)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。按token计费，对标官网，我们便宜了8倍\n点击蓝色字体可直接跳转到其他网站\n\n文档说明：https://docs.qq.com/doc/DZmpOd0traGFXRkJO\n这里有极其详细的获取apikey的方法：https://docs.qq.com/doc/DZnlPRXZoRFdJcXFO",
+    BotHello: "你好！有什么可以帮到您？\n----\n请加我们的[qq群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=TyiPpzkeuqrBmep1bZ6-Iohax9-RsPgU&authKey=s7ce4Gg%2FGXWjqrXP%2FoDjwrVVCQyuy5bzU5hTyPJL55497q74EN8Oyj8Gg34aFjz8&noverify=0&group_code=921551235)921551235，请访问我们的[商店](https://s0h.cn/pattysi)购买极其低价的APIkey余额\n如需免费使用，请访问我们的[APIKey管理网站](https://api.120509.xyz)在此网站注册后有免费额度，可以自己生成APIKey复制到此网站中使用（可自定义模型）。如果免费余额不够用，您可以考虑充值，我们比所有的友商友商都便宜\n点击蓝色字体可直接跳转到其他网站\n\n文档说明：https://docs.qq.com/doc/DZmpOd0traGFXRkJO\n这里有极其详细的获取apikey的方法：https://docs.qq.com/doc/DZnlPRXZoRFdJcXFO",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
