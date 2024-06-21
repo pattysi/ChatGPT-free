@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "ChatGPT公益网",
+  title: "GPT-PLUS",
   description: "Free use of ChatGPT, QQ group:921551235",
   viewport: {
     width: "device-width",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT公益网",
+    title: "GPT-PLUS",
     statusBarStyle: "default",
   },
 };
